@@ -1,0 +1,24 @@
+﻿claim_id,line,claim,source,evidence_path,verdict,reason,action
+C01,34,目的性批判综述，不是完成的系统综述,methods/search records,01_search/phase11_supplement/supplement_protocol_zh.md,supported,正文明确声明限制，未伪造PRISMA。,保持定位
+C02,46,初始任务分布19/2/2,study descriptors,05_evidence/phase10_orthogonal_study_classification.csv,supported,23条分类及16条box reported_compression可重算。,限定初始池，补当前池总表
+C03,46,16篇框检测报告描述压缩操作,study descriptors,05_evidence/phase10_orthogonal_study_classification.csv,supported,这是既定规则计数，不是16篇高质量或边缘部署验证。,保持计数限定
+C04,81,16个OpenAlex与11个Crossref主题请求，4个429,API logs,01_search/phase11_supplement/search_execution_log.csv,supported,27主题请求中4个Crossref返回429；另一次失败为引文追踪404。,不把失败记作零命中
+C05,81,168后向关系与26前向关系,tracking edges,01_search/phase11_supplement/citation_tracking_edges.csv,supported,合计194关系；零、列表空和失败应按种子分别说明。,补成功/缺失/失败明细
+C06,83,1052条独立发现记录,discovery table,01_search/phase11_supplement/discovery_screening_database.csv,supported,1052唯一记录ID；疑似不同DOI版本保留，不能当1052独立研究。,继续称records，勿称studies
+C07,83,26条优先候选评估,priority decisions,01_search/phase11_supplement/priority_screening_decisions.csv,partially-supported,有26条决策，优先化标准的充分性未由记录条数证明。,说明各主题候选及暂缓理由
+C08,83,5新PDF＋2在线正文支持核读,files/notes,04_reading_notes/phase11_supplement;03_papers/phase11_supplement,supported,5个新PDF与2组正文片段存在；P05/P09重复副本未计新增。,继续区分下载与在线核读
+C09,85,2篇新增主线压缩框检测,screening decisions,01_search/phase11_supplement/priority_screening_decisions.csv,supported,SX07/N0144为core，其余5篇分割/近邻/排除核心。,不把7篇全称核心
+C10,48,B/C覆盖所有可用与对照记录,appendices,07_manuscript/phase11_v04/appendices/B_study_descriptors.csv;C_configurations.csv;C_contrasts.csv,partially-supported,仍为23/69/24，新7键均未整合；E有单独记录。,限定范围或合并当前注册表
+C11,288,当前使用M/C/D/H register,current methods,07_manuscript/phase11_v04/02_methodology.md,contradicted,§2.4及字典定义REC/CFG/OBS/字段HELD，正文仍用旧制。,统一术语与适用边界
+C12,178,P03 native/teacher/pruned/recovered有不同参考含义,P03 Tables2/3,05_evidence/phase8_numeric_source_cells.csv;03_papers/P03_public_fulltext.pdf,supported,原文分阶段数值及资源解释相符；不支持实测边缘加速。,保持限制
+C13,184,N0295学生比teacher快、比native慢,N0295 Table5 p15,04_reading_notes/phase5_all_available/N0295_pages.json,supported,57.3处于34.7和66.2之间；并非KD-only speedup。,保留基线差异
+C14,206,P11具名Orin FP16 FPS及功率,P11 Table10 p12,04_reading_notes/phase5_all_available/P11_pages.json,supported,146.7/89.9 FPS及5.03/7.87W匹配；对应batch1/input640。,保持功率rail与处理范围
+C15,206,INT8 build失败，FP16mask branch未测试,P11 §6.2 p12,04_reading_notes/phase5_all_available/P11_pages.json,supported,原文明示TRT10.3 no-valid-tactic和workaround futurework。,勿转写为已实现混合精度
+C16,262,SX07预算增加后AP下降、参数基线冲突,SX07 Tables4/7 pp16/20,04_reading_notes/phase11_supplement/SX07_pages.json,supported,AP50 77.6→70.2/66.1；前剪枝2.26M vs2.66M。,不选择有利数值修正作者
+C17,170,N0144不同训练预算限制loss归因,N0144 §III.D printedp27988,04_reading_notes/phase11_supplement/S0189_N0144_publisher_or_CC_body_extract.txt,supported,基线200epochs；distill为500或300；不是新增实验。,保留方法级解释
+C18,266,Solder-Yolo实际无GPU工业PC，早期嵌入式不足,S0189 §4.5/Table9,04_reading_notes/phase11_supplement/S0189_N0144_publisher_or_CC_body_extract.txt,supported,原文直接说明industrialPC/NoneGPU及失败理由。,不称已验证嵌入式板成功
+C19,266,AT/FPS不互倒意味着源文矛盾,S0189 Table1/§4.5,04_reading_notes/phase11_supplement/S0189_publisher_body_extract_2.txt,partially-supported,统计/采样范围未明；数值不互倒不单独证明错误。,改为聚合口径待澄清
+C20,264,S0885是无框分类且区分kernel/pipeline时延,S0885 pp15–16 Tables6/8,04_reading_notes/phase11_supplement/S0885_pages.json,supported,p15明示无bounding-box；3.843与9.382ms范围不同。,继续置于分类上下文
+C21,172,S0117在测试中用teacher-student差异,S0117 §3.4 p7,04_reading_notes/phase11_supplement/S0117_pages.json,supported,不能假定只留student进行检测。,维持排除核心/边界解释
+C22,64,W模块读数作为energy data描述,P11 Table10,04_reading_notes/phase5_all_available/P11_pages.json,partially-supported,数值是total-module power，不是J。,用power术语
+C23,115,Figure1直观表达四层压缩分类,Figure1 actual image,07_manuscript/phase11_v04/figures/figure01_typed_records.png,partially-supported,图画的是证据记录对象，并未画出四层技术分类。,更正指代或补技术分类图

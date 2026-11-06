@@ -1,0 +1,44 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "torch": "2.5.1+cu121",
+  "seed": 42,
+  "epochs": 3,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "samples": {
+    "train": 54000,
+    "validation": 6000,
+    "test": 10000
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5855631302992503,
+      "train_accuracy": 0.7944629629629629,
+      "val_loss": 0.4306942392985026,
+      "val_accuracy": 0.8501666666666666
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.399661812349602,
+      "train_accuracy": 0.8554814814814815,
+      "val_loss": 0.3751388092041016,
+      "val_accuracy": 0.8663333333333333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3531917563456076,
+      "train_accuracy": 0.8707037037037038,
+      "val_loss": 0.3517009687423706,
+      "val_accuracy": 0.8765
+    }
+  ],
+  "test": {
+    "loss": 0.3719266969680786,
+    "accuracy": 0.8666
+  },
+  "reload_logits_identical": true,
+  "elapsed_seconds_including_download": 26.23015740000119,
+  "peak_gpu_allocated_mib": 23.029296875
+}

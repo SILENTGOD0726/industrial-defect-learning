@@ -1,0 +1,66 @@
+[
+  {
+    "id": "C01",
+    "formula": "40.1 / 21.6",
+    "value": 1.8564814814814814,
+    "unit": "倍",
+    "source": "P01 Table 2",
+    "meaning": "同机吞吐比，不是10.8×模型配置名"
+  },
+  {
+    "id": "C02",
+    "formula": "(1 - 12.2 / 19.6) * 100",
+    "value": 37.75510204081633,
+    "unit": "%",
+    "source": "P12 Table 5",
+    "meaning": "INT8相对FP32延迟下降"
+  },
+  {
+    "id": "C03",
+    "formula": "70.6 - 67.5",
+    "value": 3.0999999999999943,
+    "unit": "百分点",
+    "source": "P11 Table 3",
+    "meaning": "固定剪后学生KD恢复的mAP50"
+  },
+  {
+    "id": "C04",
+    "formula": "21 / (21 + 2) * 100",
+    "value": 91.30434782608695,
+    "unit": "%",
+    "source": "P10 Table 9 LNB-Stain",
+    "meaning": "依据原计数回算精确率；与Table 10的87.0%不同"
+  },
+  {
+    "id": "C05",
+    "formula": "2 * 21 / (2 * 21 + 2 + 2) * 100",
+    "value": 91.30434782608695,
+    "unit": "%",
+    "source": "P10 Table 9 LNB-Stain",
+    "meaning": "依据原计数回算F1；与Table 10的89.1%不同"
+  },
+  {
+    "id": "C06",
+    "formula": "1000 / 6.3",
+    "value": 158.73015873015873,
+    "unit": "FPS",
+    "source": "P08 Table 9",
+    "meaning": "总延迟的倒数，串行batch1条件下解释"
+  },
+  {
+    "id": "C07",
+    "formula": "25 / 0.125",
+    "value": 200.0,
+    "unit": "FPS",
+    "source": "P08正文速度/FOV示例；本报告几何计算",
+    "meaning": "125mm视野、25m/s、零重叠下的最低帧率"
+  },
+  {
+    "id": "C08",
+    "formula": "25 / (0.125 * (1 - 0.2))",
+    "value": 250.0,
+    "unit": "FPS",
+    "source": "本报告教学场景，重叠20%为自设条件",
+    "meaning": "20%重叠时的最低帧率，不是论文实测"
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "id": "P01",
+    "status": "match",
+    "title": "RDDPA: Real-time Defect Detection via Pruning Algorithm on Steel Surface",
+    "authors": [
+      "Kun Lu",
+      "Xuejuan Pan",
+      "Chunfeng Mi",
+      "Wenyan Wang",
+      "Jun Zhang",
+      "Peng Chen",
+      "Bing Wang"
+    ],
+    "local_authors": "Kun Lu; Xuejuan Pan; Chunfeng Mi; Wenyan Wang; Jun Zhang; Peng Chen; Bing Wang",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ]
+    },
+    "year": 2024,
+    "volume": "64",
+    "issue": "6",
+    "page": "1019-1028",
+    "article_number": "ISIJINT-2023-360",
+    "doi": "10.2355/isijinternational.isijint-2023-360",
+    "url": "https://api.crossref.org/works/10.2355%2Fisijinternational.ISIJINT-2023-360"
+  },
+  {
+    "id": "P02",
+    "status": "match",
+    "title": "Research on the Construction of an Efficient and Lightweight Online Detection Method for Tiny Surface Defects through Model Compression and Knowledge Distillation",
+    "authors": [
+      "Qipeng Chen",
+      "Qiaoqiao Xiong",
+      "Haisong Huang",
+      "Saihong Tang",
+      "Zhenghong Liu"
+    ],
+    "local_authors": "Qipeng Chen; Qiaoqiao Xiong; Haisong Huang; Saihong Tang; Zhenghong Liu",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          5
+        ]
+      ]
+    },
+    "year": 2024,
+    "volume": "13",
+    "issue": "2",
+    "page": "253",
+    "article_number": null,
+    "doi": "10.3390/electronics13020253",
+    "url": "https://api.crossref.org/works/10.3390%2Felectronics13020253"
+  },
+  {
+    "id": "P03",
+    "status": "match",
+    "title": "Object detection on low-compute edge SoCs: a reproducible benchmark and deployment guidelines",
+    "authors": [
+      "Chang Kong",
+      "Feng Li",
+      "Xiaohu Yan",
+      "Jinfeng Yang",
+      "Peng Mo",
+      "Qiuming Luo",
+      "Rui Mao"
+    ],
+    "local_authors": "Chang Kong; Feng Li; Xiaohu Yan; Jinfeng Yang; Peng Mo; Qiuming Luo; Rui Mao",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ]
+    },
+    "year": 2026,
+    "volume": "16",
+    "issue": "1",
+    "page": null,
+    "article_number": "5875",
+    "doi": "10.1038/s41598-026-36862-y",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-026-36862-y"
+  },
+  {
+    "id": "P04",
+    "status": "conference_pdf_checked",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Fang_DepGraph_Towards_Any_Structural_Pruning_CVPR_2023_paper.html"
+  },
+  {
+    "id": "P05",
+    "status": "conference_pdf_checked",
+    "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html"
+  },
+  {
+    "id": "P06",
+    "status": "conference_pdf_checked",
+    "url": "https://proceedings.mlr.press/v119/nagel20a.html"
+  },
+  {
+    "id": "P07",
+    "status": "match",
+    "title": "Workpiece surface defect detection based on YOLOv11 and edge computing",
+    "authors": [
+      "Zishuo Wang",
+      "Tao Ding",
+      "Shuning Liang",
+      "Hongwei Cui",
+      "Xingquan Gao"
+    ],
+    "local_authors": "Zishuo Wang; Tao Ding; Shuning Liang; Hongwei Cui; Xingquan Gao",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          9
+        ]
+      ]
+    },
+    "year": 2025,
+    "volume": "20",
+    "issue": "7",
+    "page": "e0327546",
+    "article_number": null,
+    "doi": "10.1371/journal.pone.0327546",
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0327546"
+  },
+  {
+    "id": "P08",
+    "status": "match",
+    "title": "YOLO-RMF: A Real-Time Surface Defect Detection Model for Hot-Rolled Strip Steel with Reparameterized Convolution and Axial Attention",
+    "authors": [
+      "Zhijun Rong",
+      "Aohan Deng",
+      "Yiheng Wang",
+      "Bingbing Dan",
+      "Liping Du",
+      "Chun Zhou"
+    ],
+    "local_authors": "Zhijun Rong; Aohan Deng; Yiheng Wang; Bingbing Dan; Liping Du; Chun Zhou",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ]
+    },
+    "year": 2026,
+    "volume": "26",
+    "issue": "20",
+    "page": "6533",
+    "article_number": null,
+    "doi": "10.3390/s26206533",
+    "url": "https://api.crossref.org/works/10.3390%2Fs26206533"
+  },
+  {
+    "id": "P09",
+    "status": "match",
+    "title": "A Lightweight Transfer Learning Model with Pruned and Distilled YOLOv5s to Identify Arc Magnet Surface Defects",
+    "authors": [
+      "Qinyuan Huang",
+      "Ying Zhou",
+      "Tian Yang",
+      "Kun Yang",
+      "Lijia Cao",
+      "Yan Xia"
+    ],
+    "local_authors": "Qinyuan Huang; Ying Zhou; Tian Yang; Kun Yang; Lijia Cao; Yan Xia",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          6
+        ]
+      ]
+    },
+    "year": 2023,
+    "volume": "13",
+    "issue": "4",
+    "page": "2078",
+    "article_number": null,
+    "doi": "10.3390/app13042078",
+    "url": "https://api.crossref.org/works/10.3390%2Fapp13042078"
+  },
+  {
+    "id": "P10",
+    "status": "match",
+    "title": "A lightweight network for phone surface defect detection with industrial deployment on RK3568 edge devices",
+    "authors": [
+      "Shulong Zhuo",
+      "Xiaojian Zhou",
+      "Jiajing Cai",
+      "Hao Bai",
+      "Xu Duan",
+      "YiQun Ma"
+    ],
+    "local_authors": "Shulong Zhuo; Xiaojian Zhou; Jiajing Cai; Hao Bai; Xu Duan; YiQun Ma",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ]
+    },
+    "year": 2025,
+    "volume": "20",
+    "issue": "12",
+    "page": "e0336971",
+    "article_number": null,
+    "doi": "10.1371/journal.pone.0336971",
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0336971"
+  },
+  {
+    "id": "P11",
+    "status": "match",
+    "title": "Lightweight metal surface defect detection algorithm based on pruning and knowledge distillation",
+    "authors": [
+      "Yiqing Cao",
+      "Yonger Yao",
+      "Lijun Lu"
+    ],
+    "local_authors": "Yiqing Cao; Yonger Yao; Lijun Lu",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          15
+        ]
+      ]
+    },
+    "year": 2026,
+    "volume": "16",
+    "issue": "1",
+    "page": null,
+    "article_number": "25700",
+    "doi": "10.1038/s41598-026-57496-0",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-026-57496-0"
+  },
+  {
+    "id": "P12",
+    "status": "match",
+    "title": "A Lightweight and High-Precision PCB Surface Defect Detection Method Based on YOLOv8",
+    "authors": [
+      "Zhenling Wang",
+      "Ya Gao",
+      "Ying Xiao",
+      "Qiurui He"
+    ],
+    "local_authors": "Zhenling Wang; Ya Gao; Ying Xiao; Qiurui He",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          18
+        ]
+      ]
+    },
+    "year": 2026,
+    "volume": "12",
+    "issue": "6",
+    "page": "266",
+    "article_number": null,
+    "doi": "10.3390/jimaging12060266",
+    "url": "https://api.crossref.org/works/10.3390%2Fjimaging12060266"
+  },
+  {
+    "id": "P13",
+    "status": "match",
+    "title": "RT-DETR-FFD: A Knowledge Distillation-Enhanced Lightweight Model for Printed Fabric Defect Detection",
+    "authors": [
+      "Gengliang Liang",
+      "Shijia Yu",
+      "Shuguang Han"
+    ],
+    "local_authors": "Gengliang Liang; Shijia Yu; Shuguang Han",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          11
+        ]
+      ]
+    },
+    "year": 2025,
+    "volume": "14",
+    "issue": "14",
+    "page": "2789",
+    "article_number": null,
+    "doi": "10.3390/electronics14142789",
+    "url": "https://api.crossref.org/works/10.3390%2Felectronics14142789"
+  },
+  {
+    "id": "P14",
+    "status": "match",
+    "title": "YOLO-MSD: a robust industrial surface defect detection model via multi-scale feature fusion",
+    "authors": [
+      "Yifei Ge",
+      "Zhuo Li",
+      "Lin Meng"
+    ],
+    "local_authors": "Yifei Ge; Zhuo Li; Lin Meng",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          3
+        ]
+      ]
+    },
+    "year": 2025,
+    "volume": "55",
+    "issue": "12",
+    "page": null,
+    "article_number": "840",
+    "doi": "10.1007/s10489-025-06739-0",
+    "url": "https://api.crossref.org/works/10.1007%2Fs10489-025-06739-0"
+  },
+  {
+    "id": "P15",
+    "status": "match",
+    "title": "YOLO-RDP: Lightweight Steel Defect Detection through Improved YOLOv7-Tiny and Model Pruning",
+    "authors": [
+      "Guiheng Zhang",
+      "Shuxian Liu",
+      "Shuaiqi Nie",
+      "Libo Yun"
+    ],
+    "local_authors": "Guiheng Zhang; Shuxian Liu; Shuaiqi Nie; Libo Yun",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          10
+        ]
+      ]
+    },
+    "year": 2024,
+    "volume": "16",
+    "issue": "4",
+    "page": "458",
+    "article_number": null,
+    "doi": "10.3390/sym16040458",
+    "url": "https://api.crossref.org/works/10.3390%2Fsym16040458"
+  }
+]

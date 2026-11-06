@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DepGraph 第一轮学习结果</title>
+<style>body{margin:0;background:#f4f6f8;color:#1c2b39;font:17px/1.75 system-ui,'Microsoft YaHei',sans-serif}main{max-width:980px;margin:32px auto;padding:32px;background:white;border-radius:14px}h1{font-size:30px}h2{font-size:23px;margin-top:32px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{text-align:left;padding:12px;border-bottom:1px solid #dce3ea}th{background:#eaf1f8}img{width:100%;height:auto}.lead{padding:18px;background:#eaf3fa;border-left:5px solid #0072b2}a{color:#0068a5}@media(max-width:640px){main{margin:0;padding:18px}table{font-size:12px}td,th{padding:6px}}</style><main>
+<p>实验学习 · CIFAR-10 · 本机实测</p><h1>模型变小以后，还能认对图片吗？</h1>
+<p class="lead">已完成：作者权重评估 → 依赖图剪枝 → 1轮微调 → 独立进程重载。<br>本轮属于流程验证，完整论文结果仍需进一步复现。</p>
+<table><thead><tr><th>模型阶段</th><th>准确率</th><th>参数个数</th><th>百万MAC口径计算量/张</th></tr></thead><tbody><tr><td>作者预训练模型</td><td>93.53%</td><td>855,770</td><td>127.116</td></tr><tr><td>刚剪枝的模型</td><td>15.26%</td><td>562,878</td><td>59.974</td></tr><tr><td>微调后的模型</td><td>86.74%</td><td>562,878</td><td>59.974</td></tr></tbody></table>
+<h2>先看模型缩小了多少</h2><p>参数减少34.23%，计算量减少52.82%。参数是模型中要保存和学习的数值；计算量是处理一张图片所需运算的估计。</p><img src="Figure_1.png" alt="原始、剪枝和微调模型的参数与计算量比较">
+<h2>再看识别能力怎样变化</h2><p>每个阶段都在相同的10,000张测试图片上评价。微调是继续训练已剪枝的模型，让剩下的参数重新适应任务；本轮变化为+71.48个百分点。</p><img src="Figure_2.png" alt="相同测试集上三个阶段的准确率">
+<h2>你应该学会的四件事</h2><ol><li>基线给后续改动提供参照。</li><li>结构化剪枝真正删除通道；相关层需要一起调整。</li><li>微调可能修复精度损失，但必须实测。</li><li>计算量比值2.120不等于推理加速倍数，本轮没有测速。</li></ol>
+<h2>这次验证的边界</h2><p>只有一个随机种子、1轮微调、没有稀疏训练。输入为32×32彩色图片；训练集50,000张，每轮实际训练49,920张。它还不是工业缺陷检测，也没有做RK3568部署。独立进程重载固定8张真实图片的输出完全一致：True。</p>
+<p><a href="学习结果.md">详细设置与学习说明</a> · <a href="final_info.json">原始结果</a> · <a href="reload_check.json">重载验证</a> · <a href="../README.md">运行方法</a></p></main></html>

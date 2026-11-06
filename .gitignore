@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+experiments/depgraph/data/
+experiments/depgraph/weights/
+experiments/depgraph/vendor/
+experiments/depgraph/tmp/
+experiments/depgraph/runs/
+experiments/fashionmnist/data/

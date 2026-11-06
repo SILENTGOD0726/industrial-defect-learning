@@ -1,0 +1,13 @@
+{
+  "independent_process": true,
+  "identical_logits": true,
+  "maximum_logit_error": 0.0,
+  "evaluation": {
+    "accuracy": 0.8674,
+    "correct": 8674,
+    "total": 10000,
+    "loss": 0.42624624967575075,
+    "evaluation_wall_seconds": 2.3439999999973224
+  },
+  "checkpoint_sha256": "674674d6e6f6dc83138dbca0d151a9ff5fc4606850cc8b15c335b4f5ec8875e9"
+}

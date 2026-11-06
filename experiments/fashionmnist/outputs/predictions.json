@@ -1,0 +1,74 @@
+[
+  {
+    "index": 0,
+    "true": "Ankle boot",
+    "predicted": "Ankle boot",
+    "softmax_score": 0.8520277738571167
+  },
+  {
+    "index": 1,
+    "true": "Pullover",
+    "predicted": "Pullover",
+    "softmax_score": 0.9746368527412415
+  },
+  {
+    "index": 2,
+    "true": "Trouser",
+    "predicted": "Trouser",
+    "softmax_score": 0.999964714050293
+  },
+  {
+    "index": 3,
+    "true": "Trouser",
+    "predicted": "Trouser",
+    "softmax_score": 0.9998136162757874
+  },
+  {
+    "index": 4,
+    "true": "Shirt",
+    "predicted": "Shirt",
+    "softmax_score": 0.5755379796028137
+  },
+  {
+    "index": 5,
+    "true": "Trouser",
+    "predicted": "Trouser",
+    "softmax_score": 0.9981191754341125
+  },
+  {
+    "index": 6,
+    "true": "Coat",
+    "predicted": "Coat",
+    "softmax_score": 0.890163004398346
+  },
+  {
+    "index": 7,
+    "true": "Shirt",
+    "predicted": "Shirt",
+    "softmax_score": 0.9133931398391724
+  },
+  {
+    "index": 8,
+    "true": "Sandal",
+    "predicted": "Sandal",
+    "softmax_score": 0.9765912294387817
+  },
+  {
+    "index": 9,
+    "true": "Sneaker",
+    "predicted": "Sneaker",
+    "softmax_score": 0.9968882203102112
+  },
+  {
+    "index": 10,
+    "true": "Coat",
+    "predicted": "Coat",
+    "softmax_score": 0.711190402507782
+  },
+  {
+    "index": 11,
+    "true": "Sandal",
+    "predicted": "Sandal",
+    "softmax_score": 0.9876706600189209
+  }
+]
